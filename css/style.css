@@ -108,7 +108,6 @@ nav .fas{
   padding: 10px;
 }
 
-/* Başvuru listesi stilleri */
 .application-list {
   margin-top: 20px;
 }
@@ -151,8 +150,6 @@ nav .fas{
   border: 1px solid gray;
 }
 
-
-/******************************/
 .form-groups {
   
   background: #dfe9f5;
@@ -174,7 +171,6 @@ nav .fas{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Form elemanları */
 .form-group {
   margin-bottom: 20px;
 }
@@ -218,14 +214,11 @@ h2{
   margin-top: 100px;
 }
 
-/***** ilaç*****/
-
 .ilaclistesi {
   margin: 20px;
   background: #dfe9f5;
 }
 
-/* Tablo Stili */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -278,7 +271,6 @@ th {
   background-color: #D84315;
 }
 
-/******** hasta sorgusu *****/
 .sorgu{
   font-family: Arial, sans-serif;
 }
@@ -320,8 +312,6 @@ input[type="text"] {
 .submit-btn:hover {
   background-color: #45a049;
 }
-
-/****** ilac seç *****/
 
 .ilaclar {
  display: flex;
