@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eczane Düzenleme</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="form-groups">
+    
+    <section class="group">
+      <h2 class="h1style fontstyle" >Eczane Düzenleme</h2>
+      <div class="container2">
+      <form method="POST" action="/pharmacy/edit">
+      <div class="form-group">
+        <label for="pharmacyID" class="fontstyle">Eczane ID:</label>
+        <input type="text" id="pharmacyID" name="pharmacyID"  required>
+      </div>
+      <div class="form-group">
+        <label for="newPharmacyName" class="fontstyle">Yeni Eczane Adı:</label>
+        <input type="text" id="newPharmacyName" name="newPharmacyName" required>
+      </div>
+      <div class="form-group">
+        <label for="newPharmacyAddress" class="fontstyle">Yeni Eczane Adresi:</label>
+        <input type="text" id="newPharmacyAddress" name="newPharmacyAddress" required>
+      </div>
+      <button type="submit" class="fontstyle">Eczane Düzenle</button>
+    </form>
+  </div>
+  </section>
+
+
+</body>
+</html>
+

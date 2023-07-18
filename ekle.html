@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eczane Ekleme</title>
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body class="form-groups">
+  <section class="group" >
+    <h2 class="h1style fontstyle" >Eczane Ekleme</h2>
+    <div class="container2">
+    <form method="POST" action="/pharmacy/add">
+      <div class="form-group">
+        <label for="pharmacyName" class="fontstyle">Eczane Adı:</label>
+        <input type="text" id="pharmacyName" name="pharmacyName" required>
+      </div>
+      <div class="form-group">
+        <label for="pharmacyAddress" class="fontstyle">Eczane Adresi:</label>
+        <input type="text" id="pharmacyAddress" name="pharmacyAddress" required>
+      </div>
+      <button type="submit" class="fontstyle">Eczane Ekle</button>
+    </form>
+  </div>
+  </section> 
+</body>
+</html>
